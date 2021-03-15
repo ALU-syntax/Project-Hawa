@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Primary"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/navbarLayout"
+        android:layout_width="389dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background_orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageButton
+            android:paddingStart="20dp"
+            android:id="@+id/btnNavBar"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toStartOf="@+id/imageaccount"
+            android:background="@drawable/ic_baseline_menu_24"
+            android:paddingLeft="20dp" />
+
+        <ImageView
+            android:id="@+id/imageaccount"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginVertical="5dp"
+            android:layout_marginBottom="40dp"
+            app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/usrname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/UserName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/usrname"
+                android:text="@string/Point"
+                android:textSize="10dp"/>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="401dp"
+        android:layout_height="346dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/background_orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageButton
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="117dp"
+            android:layout_marginEnd="151dp"
+            android:layout_marginBottom="116dp"
+            android:background="@drawable/button_add"
+            app:srcCompat="@drawable/ic_icons8_add_80"
+            android:contentDescription="@string/button_add" />
+
+        <Button
+            android:id="@+id/btnAchivement"
+            android:layout_width="149dp"
+            android:layout_height="134dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="225dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/button_achivement"
+            android:text="@string/button_achivement"
+            android:textColor="@color/Primary"
+            android:theme="@style/AppTheme.ButtonAchivement"
+            app:icon="@drawable/ic_quality"
+            app:iconGravity="end"
+            app:iconSize="38dp"
+            app:iconTint="@color/Primary"/>
+
+        <Button
+            android:id="@+id/btnTarget"
+            android:layout_width="149dp"
+            android:layout_height="134dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/button_target"
+            android:text="@string/button_target"
+            android:textSize="12sp"
+            android:textColor="@color/Primary"
+            android:theme="@style/AppTheme.ButtonTarget"
+            app:icon="@drawable/ic_target"
+            app:iconGravity="end"
+            app:iconSize="46dp"
+            app:iconTint="@color/Primary"
+            android:onClick="Target"/>
+
+        <Button
+            android:id="@+id/btnWorkDay"
+            android:layout_width="149dp"
+            android:layout_height="134dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/button_workday"
+            android:text="@string/button_workday"
+            android:textColor="@color/Primary"
+            android:theme="@style/AppTheme.ButtonWorkDay"
+            app:icon="@drawable/ic_calendar"
+            app:iconGravity="end"
+            app:iconSize="57dp"
+            app:iconTint="@color/Primary" />
+
+        <Button
+            android:id="@+id/btnGape"
+            android:layout_width="149dp"
+            android:layout_height="134dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="225dp"
+            android:layout_marginTop="180dp"
+            android:text="@string/button_gape"
+            android:textColor="@color/Primary"
+            android:background="@drawable/button_gape"
+            android:theme="@style/AppTheme.ButtonGape"
+            app:icon="@drawable/ic_icons8_market_entry_96"
+            app:iconGravity="end"
+            app:iconSize="57dp"
+            app:iconTint="@color/Primary"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="366dp"
+        android:layout_height="192dp"
+        android:layout_marginBottom="36dp"
+        android:contentDescription="@string/leaderboard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/background_orange" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

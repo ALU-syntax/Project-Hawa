@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Kopi_Hawa</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_navigation_main">NavigationMainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="button_achivement">Achivement</string>
+    <string name="button_gape">Gape</string>
+    <string name="button_workday">WorkDay</string>
+    <string name="button_target">Target</string>
+    <string name="button_add">add</string>
+    <string name="leaderboard">LeaderBoard</string>
+    <string name="splashscreen">TODO</string>
+
+    <!-- Target Activity   -->
+    <string name="TargetActivityText">Target Activity</string>
+    <string name="btnBackTarget">btnBackTarget</string>
+
+    <string name="TableText">Today Suggest Target</string>
+    <string name="TableNumber">30</string>
+    <!-- End Target Activity   -->
+
+    <!-- Achivement Activity   -->
+    <string name="btnBackAchivement">btnBackAchivement</string>
+    <string name="AchivementActivityText">Achivement Activity</string>
+    <!-- End Achivement Activity   -->
+
+    <!-- Work Day Activity   -->
+    <string name="btnBackWorkDay">btnBackWorkDay</string>
+    <string name="WorkDayActivityText">WorkDay Activity</string>
+    <string name="ShapeText">Today</string>
+    <!-- End Work Day Activity   -->
+
+    <!-- Gape Activity   -->
+    <string name="btnBackGape">btnBackGape</string>
+    <string name="GapeActivityText">Gape Activity</string>
+    <!-- End Gape Activity    -->
+
+    <!--User Text-->
+    <string name="UserName">Kopi Hawa</string>
+    <string name="Point">1240 point</string>
+    <!--End User Text-->
+
+</resources>
