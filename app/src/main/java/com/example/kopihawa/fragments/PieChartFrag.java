@@ -14,9 +14,7 @@ import android.view.ViewGroup;
 
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.components.Legend;
-import com.xxmassdeveloper.mpchartexample.R;
 import com.example.kopihawa.R;
-
 
 
 public class PieChartFrag extends SimpleFragment {
