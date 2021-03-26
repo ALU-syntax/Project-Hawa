@@ -8,8 +8,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/logo_hawa_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.KopiHawa">
-        <activity android:name=".BarChartActivity"></activity>
+        android:theme="@android:style/Theme.NoTitleBar">
+        <activity android:name=".WorkDayActivity"></activity>
+        <activity android:name=".GapeActivity" />
+        <activity android:name=".AchivementActivity" />
+        <activity android:name=".PieChartActivity" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +23,11 @@
         <activity android:name=".TargetActivity" />
         <activity
             android:name=".MainActivity"
-            android:theme="@style/Theme.Kopi_Hawa"></activity>
+            android:theme="@style/Theme.Kopi_Hawa">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

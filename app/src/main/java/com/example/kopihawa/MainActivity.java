@@ -20,5 +20,20 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, TargetActivity.class);
         startActivity(intent);
     }
+
+    public void Achivement(View view){
+        Intent intent = new Intent(MainActivity.this, AchivementActivity.class);
+        startActivity(intent);
+    }
+
+    public void WorkDay(View view){
+        Intent intent = new Intent(MainActivity.this, WorkDayActivity.class);
+        startActivity(intent);
+    }
+
+    public void Gape(View view){
+        Intent intent = new Intent(MainActivity.this, GapeActivity.class);
+        startActivity(intent);
+    }
 }
 

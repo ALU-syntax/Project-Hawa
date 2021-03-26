@@ -46,9 +46,6 @@ public abstract class DemoBase extends AppCompatActivity implements ActivityComp
         tfLight = Typeface.createFromAsset(getAssets(), "OpenSans-Light.ttf");
     }
 
-    protected float getRandom(float range, float start) {
-        return (float) (Math.random() * range) + start;
-    }
 
     @Override
     public void onBackPressed() {

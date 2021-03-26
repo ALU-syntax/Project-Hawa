@@ -28,7 +28,8 @@
             android:layout_marginBottom="10dp"
             android:layout_toStartOf="@+id/imageaccount"
             android:background="@drawable/ic_baseline_menu_24"
-            android:paddingLeft="20dp" />
+            android:paddingLeft="20dp"
+            android:onClick="Achivement"/>
 
         <ImageView
             android:id="@+id/imageaccount"
@@ -140,7 +141,8 @@
             app:icon="@drawable/ic_calendar"
             app:iconGravity="end"
             app:iconSize="57dp"
-            app:iconTint="@color/Primary" />
+            app:iconTint="@color/Primary"
+            android:onClick="WorkDay"/>
 
         <Button
             android:id="@+id/btnGape"
@@ -157,7 +159,8 @@
             app:icon="@drawable/ic_icons8_market_entry_96"
             app:iconGravity="end"
             app:iconSize="57dp"
-            app:iconTint="@color/Primary"/>
+            app:iconTint="@color/Primary"
+            android:onClick="Gape"/>
 
     </RelativeLayout>
 
